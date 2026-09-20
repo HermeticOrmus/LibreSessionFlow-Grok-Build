@@ -5,6 +5,8 @@ description: Compress goals, decisions, and open loops into a portable context p
 
 # Context Pack
 
+Status: **stub** — cue only. For a usable playbook use melted `session-handoff` / `session-absorb`. See [docs/DEPTH_MATRIX.md](../../docs/DEPTH_MATRIX.md).
+
 Compress session state into a portable pack.
 
 ## Steps
