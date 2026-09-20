@@ -5,6 +5,8 @@ description: Produce a next-3-actions resume plan for Grok Build after pickup or
 
 # Resume Plan
 
+Status: **stub** — cue only. Verify first with melted `session-pickup`. See [docs/DEPTH_MATRIX.md](../../docs/DEPTH_MATRIX.md).
+
 Turn absorbed state into an executable plan.
 
 ## Steps

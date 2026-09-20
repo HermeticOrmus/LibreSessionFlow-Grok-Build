@@ -5,6 +5,8 @@ description: End-of-session continuity smoke checks for Grok Build. Use before c
 
 # Continuity Checklist
 
+Status: **stub** — cue only. Write the package with melted `session-handoff` first. See [docs/DEPTH_MATRIX.md](../../docs/DEPTH_MATRIX.md).
+
 Smoke checks before ending a session.
 
 ## Checks

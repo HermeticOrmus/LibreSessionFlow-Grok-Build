@@ -5,6 +5,8 @@ description: Summarize a Grok Build thread without losing actionable state. Use 
 
 # Thread Digest
 
+Status: **stub** — cue only. If several notes conflict, use melted `session-absorb`. See [docs/DEPTH_MATRIX.md](../../docs/DEPTH_MATRIX.md).
+
 Summarize for action, not for prose awards.
 
 ## Steps
