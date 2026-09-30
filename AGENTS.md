@@ -7,15 +7,17 @@
 
 ## How to use this suite
 
-1. Install skills (see [QUICK_START.md](./QUICK_START.md)).
+1. Install the `libre-sessionflow-grok` plugin, plus the pack plugins you need, from this repo's marketplace (see [QUICK_START.md](./QUICK_START.md)).
 2. Keep Reality OS as the global doctrine layer.
-3. Use melted skills (`session-handoff`, `session-pickup`, `session-absorb`) for continuity work; use `AGENTS/session-orchestrator.md` for a full handoff↔pickup pass (orchestrator is still a stub).
+3. Use melted skills (`session-handoff`, `session-pickup`, `session-absorb`, shipped as the `libre-sessionflow-grok` plugin) for continuity work; use `AGENTS/session-orchestrator.md` for a full handoff↔pickup pass (orchestrator is still a stub).
 
 ## Agents in this repo
 
 | Agent | File | Status | Role |
 |-------|------|--------|------|
 | session-orchestrator | `AGENTS/session-orchestrator.md` | stub | Coordinates handoff, digest, absorb, resume into one continuity pass |
+
+Nothing installs the orchestrator: merge it into your project's `AGENTS.md` by hand. The four stub skills it names live in [stubs/](./stubs/), each naming the pack plugin nearest to the real depth.
 
 Honest inventory: [docs/DEPTH_MATRIX.md](./docs/DEPTH_MATRIX.md) — 3 melted skills, 4 stub skills, 1 stub agent.
 
