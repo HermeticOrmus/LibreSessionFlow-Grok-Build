@@ -1,0 +1,11 @@
+{
+  "name": "libre-sessionflow-grok",
+  "version": "1.0.0",
+  "description": "Grok-native LibreSessionFlow skills: session handoff, session pickup, and session absorb. The handoff and pickup contract with pass and fail checks, worked examples, and an output shape.",
+  "author": {
+    "name": "Diego Bodart",
+    "url": "https://github.com/HermeticOrmus"
+  },
+  "repository": "https://github.com/HermeticOrmus/LibreSessionFlow-Grok-Build",
+  "license": "MIT"
+}
